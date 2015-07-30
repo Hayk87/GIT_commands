@@ -29,3 +29,5 @@ git branch --merged  - Սա համեմատում է ներկա բրենչը մն
 git branch --move new_branch branch - Բրանչի անունի փոփոխությունը
 git branch -m new_branch branch - Բրանչի անունի փոփոխությունը
 git branch -d branchName  - Ջնջում է բրենչը
+git merge branchName  - Բրենչներն միացնում է իրար
+git clone URL  - Կլոնավորում է նշված URL-ով ռեսուրսը պապկաի մեջ
