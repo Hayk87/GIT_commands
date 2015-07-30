@@ -34,6 +34,8 @@ git clone URL  - Կլոնավորում է նշված URL-ով ռեսուրսը 
 git remote rm origin  - Օրիգին պահեստը ջնջում է
 git push origin master new_branch_local:new_branck_server    - push է անում և ստաղծում է բրենչ նոր անունով, կամ կարելի է տալ՝
 git push origin master new_branch
+git branch branch_name origin/branch_name  - Լոկալում ստեղծում է` սերվերում գտնվող բրենչի անունով նոր բրենչ որը սինխրոն կաշխատի իրար հետ
+git push (remote-name) :(branchname)   - Ջնջում է ռիմոթ ռեպո.-ի բրենչը, օրինակ՝   git push origin : dev1 կամ git push origin --delete dev1
 clear  - Մաքրում է էկրանը
 
 Ռեմոտի հետ ճիշտ աշխատելիս պետք է կատարել հետևյալ քայլերը
@@ -47,5 +49,8 @@ commit
 fetch
 merge
 push
+---------------------------------------------------------
 
+
+pull = fetch + merge
 
