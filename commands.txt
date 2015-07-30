@@ -26,3 +26,6 @@ git checkout BranchName - Տեղափոխվում է BranchName անունով բ
 git checkout -b BranchName - Ստեղծում է նոր բրենչ BranchName անունով և տեղափոխվում է այդ բրենչի վրա
 git diff BranchName1 .. BranchName2 - Բրենչներն համեմատվում են այս կերպ
 git branch --merged  - Սա համեմատում է ներկա բրենչը մնացածի հետ և ստուգում որոնք ունեն նույն քոմիթներն և բերում է ցուցակ
+git branch --move new_branch branch - Բրանչի անունի փոփոխությունը
+git branch -m new_branch branch - Բրանչի անունի փոփոխությունը
+git branch -d branchName  - Ջնջում է բրենչը
