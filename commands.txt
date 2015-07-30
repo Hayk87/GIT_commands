@@ -1,9 +1,10 @@
 ﻿git init - Ինիցիալիզացիա
+git help - Գիթ օգնական
 git remote add origin https://github.com/UserName/Repository - Միացնում է github ռեպոզիտորիան
 git pull origin master - Քաշում է github ռեպոզիտորիաից բոլոր ֆայլերը 
 git add . - Ֆայլերը աշխատանքային դիրեկտորիայից տանում է միջանկյալ դիրեկտորիա
 git commit -m "....." - Ֆայլերը միջանկյալ դիրեկտորիայից տանում է պահեստային դիրեկտորիա
-git checkout - Հետ է բերում բոլոր փոփոխությունները պահեստից աշխատանքային
+git checkout - Հետ է բերում պահեստային դիրեկտորիայի փոփոխությունները բերում ենք աշխատանքայինի վրա
 git checkout <filename.format>  - Հետ է բերում բոլոր փոփոխությունները պահեստից աշխատանքային մի ֆայլինը միայն
 git checkout -- <filename.format> - Հետ է տալիս աշխատանքային դիրեկտորիայում գտնվող ֆայլի բոլոր փոփոխությունները նախորդ վիձակի
 git rm <filename.format> - Ջնջված ֆայլը հանում է git-ից
@@ -17,3 +18,6 @@ git status - ներկա պահին իրավիճակը, ստատուսը
 git config --global user.name "..." - կոնֆիգուրացիան անուն
 git config --global user.email "..." - կոնֆիգուրացիան էլ-հասցեն
 git revert bd64c4bf4c985bb79a3c59f2c0ed74b1d740d846  - Եթե ասենք ֆայլում ջնջել ենք մի որևէ բան ապա այդ ջնջված բանը վերականգնվում է
+git branch - Ցույց է տալիս բոլոր բրենչներն
+git branch BranchName - Ստեղծում է նոր բրենչ
+git checkout BranchName - Տեղափոխվում է BranchName անունով բրենչի վրա
