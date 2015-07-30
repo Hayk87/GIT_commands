@@ -31,3 +31,5 @@ git branch -m new_branch branch - Բրանչի անունի փոփոխությո
 git branch -d branchName  - Ջնջում է բրենչը
 git merge branchName  - Բրենչներն միացնում է իրար
 git clone URL  - Կլոնավորում է նշված URL-ով ռեսուրսը պապկաի մեջ
+git remote rm origin  - Օրիգին պահեստը ջնջում է
+clear  - Մաքրում է էկրանը
